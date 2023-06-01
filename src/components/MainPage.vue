@@ -2,14 +2,19 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      I am a Software Developer and Digital Artist specialized on pixel art <br>
+      check out one of my current projects: 
+      <a href="https://www.kickstarter.com/projects/1163975700/fictionsphere-platformer-beat-em-up/description" target="_blank" rel="noopener">FictionSphere</a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h3>Social Media</h3>
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+      <li><a href="https://www.linkedin.com/in/johan-barradas/" target="_blank" rel="noopener">
+        <el-button color="#626aef" round>LinkedIn</el-button>
+      </a></li>
+
+      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">
+        <el-button type="primary" round>Twitter</el-button>
+      </a></li>
     </ul>
     <h3>Essential Links</h3>
     <ul>
@@ -30,8 +35,8 @@
   </div>
   <el-row class="mb-4" justify="center">
     <el-button round>Round</el-button>
-    <el-button type="primary" round>Primary</el-button>
-    <el-button type="success" round>Success</el-button>
+    
+
     <el-button type="info" round>Info</el-button>
     <el-button type="warning" round>Warning</el-button>
     <el-button type="danger" round>Danger</el-button>
@@ -40,7 +45,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'MainPage',
   props: {
     msg: String
   }
@@ -48,18 +53,7 @@ export default {
 
 </script>
 
-<!-- <script lang="ts" setup>
-import {
-  Check,
-  Delete,
-  Edit,
-  Message,
-  Search,
-  Star,
-} from '@element-plus/icons-vue'
-</script> -->
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 /* moved to App.vue to handle styling */
 /* h3 {

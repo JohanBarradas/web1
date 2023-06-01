@@ -1,5 +1,8 @@
 <template>
-
+  <!-- Menu bar for website -->
+  <div class="menubar">
+    <MenuBar msg="Welcome to my webpage"/>
+  </div>
   <!-- <div class="card"> -->
     <input
       @change="toggleTheme"
@@ -21,14 +24,14 @@
   <img alt="Main picture" src="./assets/duck.gif"
   width="180" height="285">
   <div class="titlemsg">
-    <HelloWorld msg="Welcome to my webpage"/>
+    <MainPage msg="Johan Barradas"/>
   </div>
  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import MainPage from './components/MainPage.vue'
+import MenuBar from './components/MenuBar.vue'
 export default {
   
   name: 'App',
@@ -42,7 +45,7 @@ export default {
     };
   },
   components: {
-    HelloWorld
+    MainPage, MenuBar
   },
   methods: {
     setTheme(theme) {
@@ -84,7 +87,6 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 :root {
